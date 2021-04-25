@@ -2,6 +2,18 @@ body{
   margin: 0;
 }
 
+.col-2{
+  height: 60px;
+}
+.col-2 p{
+  font-size: 32px;
+}
+
 .container-fluid{
   padding: 0;
+}
+
+.navbar-brand p{
+  font-family: 'Zen Dots', cursive;
+  padding: 12px;
 }
