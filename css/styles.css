@@ -35,6 +35,7 @@ body{
    padding-left: 50px;
  }
  .title-image{
+   width: 1440px;
    position: fixed;
    z-index: -1;
  }
@@ -44,5 +45,9 @@ body{
    .title-container{
      text-align: center;
      padding: 5%;
+   }
+   .title-image{
+     content: url("https://raw.githubusercontent.com/dixit-kmt/dash/main/image/mob-title.jpg");
+     width: 100%;
    }
  }
