@@ -31,17 +31,21 @@ h1{
 
 .title-heading{
   margin: 250px 0;
-  padding-left: 50px;
 }
 .title-image{
   position: fixed;
   z-index: -1;
 }
-
+.title-container{
+  margin: 10% auto 7%;
+}
 
 @media (max-width: 991px){
   .title-container{
     text-align: center;
     padding: 5%;
+  }
+  .title-image{
+    height: 800px;
   }
 }
